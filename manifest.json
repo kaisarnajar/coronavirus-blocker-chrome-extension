@@ -1,0 +1,15 @@
+{
+   "manifest_version": 2,
+   "name": "Coronavirus Immunity",
+   "version": "0.1.0",
+   "icons": { "16": "covid-19.png",
+      "48": "covid-19.png",
+     "128": "covid-19.png" },
+   "content_scripts": [
+     {
+       "matches": ["<all_urls>"],
+       "js": ["script.js"],
+       "css": ["style.css"]
+     }
+   ]
+ }
